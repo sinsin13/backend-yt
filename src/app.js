@@ -24,7 +24,8 @@ import userrouter from "./routes/user.routes.js";
 
 //routes declaration
 
-app.use("/users", userrouter);
+app.use("/api/v1users", userrouter);
 
+// http://localhost:5000/api/v1/users/register
 
 export default app;
